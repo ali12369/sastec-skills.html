@@ -1,0 +1,23 @@
+
+.first_input{
+   display: flex; 
+   justify-content: center;
+   gap: 8px ;
+   
+}
+.second_input {
+display: flex;
+justify-content: center;
+margin-top: 5px;
+
+}
+.third_input {
+    display: flex;
+justify-content: center;
+margin-top: 5px;
+}
+.form_container{
+width: 50%;
+
+
+}
