@@ -3,21 +3,94 @@
    display: flex; 
    justify-content: center;
    gap: 8px ;
+   width: 50%;
+
    
 }
 .second_input {
 display: flex;
 justify-content: center;
-margin-top: 5px;
+width: 100% ;
+
+
+
 
 }
 .third_input {
     display: flex;
-justify-content: center;
-margin-top: 5px;
+justify-content: end;
+
+
 }
 .form_container{
-width: 50%;
+display: flex ;
+flex-direction: column;
+width: 75%;
+border: 1px solid black;
+}
+.tab{
+    padding: 5px 0px 5px 0px;
+    display: flex;
+justify-content: center;
+
+}
+
+.icone img{
+width: 50px;
+float: left;
+margin-right: 10px;
+justify-content: start ;
+
+
+}
+ .container-fluid{
+display: flex;
+
+justify-content: space-between;
+
+} 
+
+.navbar-header{
+    flex: start;
+    justify-content: start;
+}
+.pos{
+    justify-content: start;
+    
+  
+   display: flex;
+}
+.container2{
+display: none;
+
+}
+@media screen and (max-width : 792px){
+
+    .nav{
+        display: none ;
+    }
+    .navbar-header{
+        display: none;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .aff{
+        background-color: black;
+        border: solid;
+        align-items: center;
+        width: 35px;
+        height: 3px;
+    }
+
+
+
 
 
 }
